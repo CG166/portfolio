@@ -17,10 +17,7 @@ export default function Pcard({projectTitle, techStack, githubLink, demoLink, de
 
 
     return(
-        <main className="flex flex-col h-[95vh] w-screen items-center justify-center bg-blueblack gap-10">
-            <div className="bg-black inline-block border-2 border-cyberyellow shadow-[10px_10px_0_0_theme(colors.cyberyellow)]">
-                <h1 className="font-orbitron text-6xl font-bold px-8 py-6">Python</h1>
-            </div>
+        <main className="flex flex-col h-[70vh] w-[80vw] items-center justify-center rounded-2xl bg-orange-400">
             <div className="relative h-[70cqh] w-[80cqw] overflow-hidden rounded-2xl p-0.75">
             <div className="absolute -inset-full animate-[spin_6s_linear_infinite] bg-[conic-gradient(from_45deg,#06B6D4,#22D3EE,#67E8F9)]" />
             <div className="relative flex flex-col h-full w-full rounded-2xl bg-black">
