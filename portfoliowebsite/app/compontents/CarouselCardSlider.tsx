@@ -81,7 +81,7 @@ export default function CarouselCardSlider({CardInfoArray, SectionTitle, }: CCSP
                         style={{ transform: `translateX(calc(-${current} * (80vw + 2rem)))`,}} >
                         {loopedCards.map((card, index) => (
 
-                        <div key={`${card.projectTitle}-${index}`} className="w-full shrink-0">
+                        <div key={`${card.projectTitle}-${index}`} className="basis-full shrink-0">
                             <Pcard
                                 projectTitle={card.projectTitle}
                                 techStack={card.techStack}

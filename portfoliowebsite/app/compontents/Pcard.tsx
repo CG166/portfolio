@@ -22,8 +22,8 @@ export default function Pcard({projectTitle, techStack, githubLink, demoLink, de
             <div className="absolute -inset-full animate-[spin_6s_linear_infinite] bg-[conic-gradient(from_45deg,#06B6D4,#22D3EE,#67E8F9)]" />
             <div className="relative flex flex-col h-full w-full rounded-2xl bg-black">
             
-                <div className="flex w-full h-[70%]">
-                    <div className="flex flex-col w-[55%] p-5">
+                <div className="flex flex-[7]">
+                    <div className="flex w-[55%] flex-col p-5">
                         <h1 className="font-orbitron text-3xl pb-5">{projectTitle}</h1>
                         <iframe
                         className="w-full aspect-video rounded-lg"
@@ -35,7 +35,7 @@ export default function Pcard({projectTitle, techStack, githubLink, demoLink, de
                         ></iframe>
                     </div>
 
-                    <div className="flex flex-col w-[45%] justify-center">
+                    <div className="flex w-[45%] flex-col overflow-hidden p-5 justify-center">
                         <h1 className="font-orbitron text-2xl pt-5 pl-5 pr-2 pb-2">Tech Stack</h1>
                         <div className="flex flex-wrap gap-2 pb-5 px-3 pl-5 pr-2">
                             {techStack.map((tech) => (
@@ -61,7 +61,7 @@ export default function Pcard({projectTitle, techStack, githubLink, demoLink, de
                     </div>
                 </div>
 
-                <div className="w-full h-[30%] py-5 px-8">
+                <div className="flex-[3] overflow-y-auto px-8 py-5">
                     <h1 className="font-orbitron text-2xl pb-2">Description</h1>
                     <p className="font-oxanium text-xl pb-2">
                         {description}
