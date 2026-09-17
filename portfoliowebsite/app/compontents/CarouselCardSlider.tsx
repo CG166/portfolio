@@ -62,7 +62,7 @@ export default function CarouselCardSlider({CardInfoArray, SectionTitle, }: CCSP
     const [animate, setAnimate] = useState(true);
 
     return (
-        <main className="bg-red-600 h-screen w-screen flex flex-col items-center justify-center gap-6">
+        <main className="bg-blueblack h-[110vh] w-screen flex flex-col items-center justify-center gap-14">
             <div className="bg-black inline-block border-2 border-cyberyellow shadow-[10px_10px_0_0_theme(colors.cyberyellow)]">
                 <h1 className="font-orbitron text-6xl font-bold px-8 py-6">{SectionTitle}</h1>
             </div>
@@ -70,7 +70,7 @@ export default function CarouselCardSlider({CardInfoArray, SectionTitle, }: CCSP
             ">
                 <button
                 onClick={prevSlide}
-                className="w-fit h-fit text-8xl">
+                className="w-fit h-fit text-8xl text-bioniccyan">
                     〈
                 </button>
                 {/* Carousel */}
@@ -98,7 +98,7 @@ export default function CarouselCardSlider({CardInfoArray, SectionTitle, }: CCSP
                 {/* Carousel */}
                 <button 
                 onClick={nextSlide}
-                className="w-fit h-fit text-8xl">
+                className="w-fit h-fit text-8xl text-bioniccyan">
                     〉   
                 </button>
             </div>

@@ -1,0 +1,16 @@
+[
+  {
+    "projectTitle": "Dog Date",
+    "techStack": ["Next.js", "React", "Typescript", "Javascript", "Tailwind CSS", "PostgresSQL", "Supabase", "Vercel"],
+    "githubLink": "https://github.com/kevJ711/dog-date",
+    "demoLink": "",
+    "description": ""
+  },
+  {
+    "projectTitle": "Coloryze",
+    "techStack": ["Next", "React", "Typescript", "Javascript", "Tailwind CSS", "FastAPI", "Pydantic", "MediaPipe", "OpenCV", "Numpy"],
+    "githubLink": "https://github.com/CG166/capstone1",
+    "demoLink": "https://youtu.be/XqIoUCq93Es?si=qcFBbwGKPGRd5bA5",
+    "description": ""
+  }
+]

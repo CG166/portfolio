@@ -1,0 +1,44 @@
+[
+  {
+    "projectTitle": "PDF Plagiarism Checker",
+    "techStack": ["Python", "Tkinter", "PyMuPDF"],
+    "githubLink": "https://github.com/CG166/PDF_Plagiarism_Checker",
+    "demoLink": "https://www.youtube.com/embed/UTOHc8ADc8w?si=ZwRsYSGh0dwCooTv",
+    "description": "This project allows users to compare two PDF documents and estimate the likelihood of plagiarism based on textual similarity. Developed with Python and a Tkinter-based GUI, the tool uses the KMP (Knuth-Morris-Pratt) string-matching algorithm to detect repeated patterns between a “master” and a “pattern” file. It parses text content from PDFs using the fitz library (PyMuPDF) and calculates a match percentage based on word-pair analysis. The application provides a clean user-friendly interface for file uploads and returns clear assessment messages."
+  },
+  {
+    "projectTitle": "Campus Navigator",
+    "techStack": ["Python", "Tkinter"],
+    "githubLink": "https://github.com/CG166/Campus_Navigator",
+    "demoLink": "https://www.youtube.com/embed/I0HgxQ5fpn8?si=Z_8m2T-WIdGreq7e",
+    "description": "This project aimed to create a smart navigation system for a university campus map, allowing users to find different paths between different locations based on factors such as route length and accessibility, using the graph search algorithms Breadth-First search, Depth-First search and Dijkstra's algorithm. The project was built using python with a Tkinter-based GUI."
+  },
+  {
+    "projectTitle": "PDF Phrase Search",
+    "techStack": ["Python", "Tkinter", "PyMuPDF"],
+    "githubLink": "https://github.com/CG166/pdfPhraseSearch",
+    "demoLink": "https://www.youtube.com/embed/GW3G8SQJvGI?si=9AyBNAuEzfkxvT5D",
+    "description": "This project enables users to upload a PDF document and search for specific phrases within its text content. Built using Python and the Tkinter GUI library, the tool extracts text from PDF files via the fitz (PyMuPDF) module and implements the Rabin-Karp string matching algorithm to efficiently locate all instances of the user-defined phrase. The application provides clear feedback on how many times and where the phrase appears in the document."
+  },
+  {
+    "projectTitle": "Algorithm Visualization",
+    "techStack": ["Python", "Tkinter"],
+    "githubLink": "https://github.com/CG166/Algorithm-Visualizer.git",
+    "demoLink": "https://www.youtube.com/embed/ATxWGp0TcqE?si=fVIoiBRSAqyv8BBo",
+    "description": "The objective of this project was to build a GUI that allowed users to view the visualization of five sorting algorithms( Bubble Sort, Merge Sort, Quick Sort, Radix Sort, and Linear Search) with a set of positive non-zero integers that they input. The visualizations will help users to understand how these algorithms sort through data as well as the time complexity differences between them, and how the algorithms respond to different number sets.The project was built using python with a Tkinter-based GUI."
+  },
+  {
+    "projectTitle": "GUI and AI Opponent for Mancala",
+    "techStack": ["Python", "Pygame"],
+    "githubLink": "https://github.com/briandalvarez/Mancala-Capstone-Project",
+    "demoLink": "https://www.youtube.com/embed/46RwohIvKLo?si=SJH_IR_kspKFXHGC",
+    "description": "This project was created in collaboration with Brian Alvarez (briandalvarez) and Jake Mendez (j1836jake). This project was also built off on an existing open-source Python project from GitHub called anuzis/mancala (mancala), which has basic Mancala game classes, gameplay that displayed via text in the terminal, a vector-based AI player that optimizes for free turns & captures, and a simple random AI player. This project builds off of that implementation by reworking the existing classes into function with a GUI built using Pygame, and implementing an additional AI player that utilizes MiniMax decision-making."
+  },
+  {
+    "projectTitle": "Calculator Desktop App for Linux and Windows",
+    "techStack": ["Python", "PyQt5", "PyInstaller", "dpkg"],
+    "githubLink": "https://github.com/CG166/CalculatorDesktopApp-Linux-",
+    "demoLink": "https://www.youtube.com/embed/BZ4FcjIi6Pw?si=1DP_HeAb5ZAKZe_G",
+    "description": "A cross-platform desktop calculator application built with Python and PyQt5 for Linux and Windows, featuring a graphical user interface, Qt resource management, and standalone executable packaging with PyInstaller. Distributed as a Debian .deb package for easy installation on Ubuntu and other Debian-based Linux systems, as well as a standalone Windows .exe executable."
+  }
+]

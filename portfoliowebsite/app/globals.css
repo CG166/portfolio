@@ -18,7 +18,14 @@
 
   --color-blueblack: #0A0F1E;
   --color-cyberyellow: #F3E600;
-  --color-bioniccyan: #00F5FF
+  --color-bioniccyan: #06B6D4;
+  --color-hotpink: #FF2DAA;
+
+  --color-primary: #110818;
+  --color-secondary: #633766;
+  --color-contrast: #301631;
+  --color-maintext: #c265a9;
+
 }
 
 @media (prefers-color-scheme: dark) {

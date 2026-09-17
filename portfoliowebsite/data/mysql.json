@@ -1,0 +1,24 @@
+[
+  {
+    "projectTitle": "Poemsy",
+    "techStack": ["HTML", "CSS", "PHP", "SQL", "MySQL"],
+    "githubLink": "https://github.com/dskoman/cpsc362-project",
+    "demoLink": "https://www.youtube.com/embed/XvZLbOTDI68?si=LZmb7DhSZwZBM0lZ",
+    "description": "This project was created in collaboration with Gabriella Amedu (Gabbyamedu) and Anthony Vasquez (dskoman). It is a website made for posting and sharing poems where users can either stay as guest users or they can register and create an account. Guest users are able to navigate through posted poems and read them, leave likes on posted poems and sign up to become registered user; while registered users are able to do everything a guest user can, post their own poems (and delete their own posts), tag their posted poems as belonging to a certain genre/categories, and are able to leave comments on other posted poems.The frontend of the website was developed using HTML and CSS, while the backend was implemented using PHP and SQL, with data stored in a MySQL database."
+  },
+  {
+    "projectTitle": "ShopSite",
+    "techStack": ["Next.js", "React", "Typescript", "Javascript", "TailwindCSS", "Drizzle ORM", "SQL", "MySQL"],
+    "githubLink": "https://github.com/CG166/cpsc449_webdev_project",
+    "demoLink": "",
+    "description": ""
+  },
+  {
+    "projectTitle": "Rest-to-Run",
+    "techStack": ["Next.js", "React", "Typescript", "Javascript", "Tailwind CSS", "Drizzle ORM", "SQL", "MySQL"],
+    "githubLink": "https://github.com/tommy237/RestaurantAppDocumentation/tree/rebuild",
+    "demoLink": "https://youtu.be/4frMA13iIGk?si=PfbdJGzJ_sf6b1qo",
+    "description": ""
+  }
+
+]

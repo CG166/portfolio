@@ -22,8 +22,8 @@ export default function Pcard({projectTitle, techStack, githubLink, demoLink, de
             <div className="absolute -inset-full animate-[spin_6s_linear_infinite] bg-[conic-gradient(from_45deg,#06B6D4,#22D3EE,#67E8F9)]" />
             <div className="relative flex flex-col h-full w-full rounded-2xl bg-black">
             
-                <div className="flex flex-[7]">
-                    <div className="flex w-[55%] flex-col p-5">
+                <div className="flex h-full">
+                    <div className="flex w-[55%] flex-col p-5 justify-center">
                         <h1 className="font-orbitron text-3xl pb-5">{projectTitle}</h1>
                         <iframe
                         className="w-full aspect-video rounded-lg"
@@ -58,18 +58,17 @@ export default function Pcard({projectTitle, techStack, githubLink, demoLink, de
                             </a>
                         </div>
 
+                        <div className="">
+                            <h1 className="font-orbitron text-2xl pb-2">Description</h1>
+                            <p className="font-oxanium text-xl pb-2">
+                                {description}
+                            </p>
+
+                        </div>
+
                     </div>
                 </div>
-
-                <div className="flex-[3] overflow-y-auto px-8 py-5">
-                    <h1 className="font-orbitron text-2xl pb-2">Description</h1>
-                    <p className="font-oxanium text-xl pb-2">
-                        {description}
-                    </p>
-
-                </div>
-
-                
+   
             </div>
             </div>
         </main>
