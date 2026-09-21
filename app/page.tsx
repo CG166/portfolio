@@ -15,7 +15,7 @@ export default function Home() {
     <main>
       <Introblock></Introblock>
       <Aboutme></Aboutme>
-      <Transition height={45}></Transition>
+      <Transition height={35}></Transition>
       <CarouselCardSlider
         CardInfoArray={python}
         SectionTitle="Python Projects"
