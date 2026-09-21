@@ -34,7 +34,7 @@ const oxanium = Oxanium({
 //
 
 export const metadata: Metadata = {
-  title: "Cindy Garcia | Portfolio",
+  title: "Portfolio | Cindy Garcia",
   description: "SWE portfolio created by Cindy Garcia.",
 };
 
