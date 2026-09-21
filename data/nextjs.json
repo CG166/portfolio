@@ -2,8 +2,8 @@
   {
     "projectTitle": "Dog Date",
     "techStack": ["Next.js", "React", "Typescript", "Javascript", "Tailwind CSS", "PostgresSQL", "Supabase", "Vercel"],
-    "githubLink": "https://www.youtube.com/embed/UkCqYXeaIsY?si=Ecv4qQ1eK5YGWUZc",
-    "demoLink": "https://youtu.be/UkCqYXeaIsY",
+    "githubLink": "https://github.com/kevJ711/dog-date",
+    "demoLink": "https://www.youtube.com/embed/UkCqYXeaIsY?si=Ecv4qQ1eK5YGWUZc",
     "description": "This project aimed to create a full-stack web application that allows dog owners to create profiles, manage dog profiles, browse dogs available for playdates, and request or accept playdates with other owners. The project was built using Next.js, React, TypeScript, JavaScript, and Tailwind CSS, with PostgreSQL and Supabase used for database management and Vercel used for deployment."
   },
   {
