@@ -10,15 +10,15 @@
     "projectTitle": "ShopSite",
     "techStack": ["Next.js", "React", "Typescript", "Javascript", "TailwindCSS", "Drizzle ORM", "SQL", "MySQL"],
     "githubLink": "https://github.com/CG166/cpsc449_webdev_project",
-    "demoLink": "",
-    "description": ""
+    "demoLink": "https://www.youtube.com/embed/DCHGUjVeO8A?si=RYhvKiLshH-Yldrx",
+    "description": "This project aimed to create a full-stack online clothing store that supports user accounts, product browsing, shopping cart management, checkout, and order tracking, with features for managing delivery addresses and payment methods. The project was built using Next.js, React, TypeScript, JavaScript, and Tailwind CSS, with Drizzle ORM, SQL, and MySQL used for database management and application data."
   },
   {
     "projectTitle": "Rest-to-Run",
     "techStack": ["Next.js", "React", "Typescript", "Javascript", "Tailwind CSS", "Drizzle ORM", "SQL", "MySQL"],
     "githubLink": "https://github.com/tommy237/RestaurantAppDocumentation/tree/rebuild",
-    "demoLink": "https://youtu.be/4frMA13iIGk?si=PfbdJGzJ_sf6b1qo",
-    "description": ""
+    "demoLink": "https://www.youtube.com/embed/4frMA13iIGk?si=1T9a2xBmMVBu2xnP",
+    "description": "This project aimed to create a full-stack delivery management application that supports separate customer, restaurant staff, driver, and manager roles, with features for ordering, delivery tracking, and refund management. The project was built using Next.js, React, TypeScript, JavaScript, and Tailwind CSS, with Drizzle ORM, SQL, and MySQL used for database management and application data."
   }
 
 ]

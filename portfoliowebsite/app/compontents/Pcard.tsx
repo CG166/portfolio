@@ -23,10 +23,10 @@ export default function Pcard({projectTitle, techStack, githubLink, demoLink, de
             <div className="relative flex flex-col h-full w-full rounded-2xl bg-black">
             
                 <div className="flex h-full">
-                    <div className="flex w-[55%] flex-col p-5 justify-center">
-                        <h1 className="font-orbitron text-3xl pb-5">{projectTitle}</h1>
+                    <div className="flex flex-col w-[55%] p-[4%]">
+                        <h1 className="font-orbitron text-4xl pb-[7%]">{projectTitle}</h1>
                         <iframe
-                        className="w-full aspect-video rounded-lg"
+                        className="w-full aspect-video rounded-lg self-center"
                         src={demoLink}
                         title="YouTube video player"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -35,32 +35,32 @@ export default function Pcard({projectTitle, techStack, githubLink, demoLink, de
                         ></iframe>
                     </div>
 
-                    <div className="flex w-[45%] flex-col overflow-hidden p-5 justify-center">
-                        <h1 className="font-orbitron text-2xl pt-5 pl-5 pr-2 pb-2">Tech Stack</h1>
-                        <div className="flex flex-wrap gap-2 pb-5 px-3 pl-5 pr-2">
+                    <div className="flex w-[45%] flex-col overflow-hidden p-[3%] justify-center">
+                        <h1 className="font-orbitron text-2xl pb-[1%]">Tech Stack</h1>
+                        <div className="flex flex-wrap gap-2">
                             {techStack.map((tech) => (
                                 <Techbubble key={tech} tech={tech} />
                             ))}
                         </div>
                         
-                        <h1 className="font-orbitron text-2xl pt-5 pb-2 pl-5 pr-2">Github</h1>
+                        <h1 className="font-orbitron text-2xl pt-[4%] pb-[1%]">Github</h1>
                         <div className="flex flex-row">
-                            <div className="pl-5 pr-2">
+                            <div className="">
                                 <FaGithub className="w-10 h-10 text-white" />
                             </div>
                             <a
                             href={githubLink}
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="text-white hover:underline font-oxanium text-2xl py-3"
+                            className="text-white hover:underline font-oxanium text-2xl"
                             >
                             {projectTitle}
                             </a>
                         </div>
 
-                        <div className="">
-                            <h1 className="font-orbitron text-2xl pb-2">Description</h1>
-                            <p className="font-oxanium text-xl pb-2">
+                        <div className="pt-[4%]">
+                            <h1 className="font-orbitron text-2xl pb-[2%]">Description</h1>
+                            <p className="font-oxanium text-xl pb-[2%]">
                                 {description}
                             </p>
 

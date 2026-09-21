@@ -1,0 +1,16 @@
+[
+  {
+    "projectTitle": "Dog Date",
+    "techStack": ["Next.js", "React", "Typescript", "Javascript", "Tailwind CSS", "PostgresSQL", "Supabase", "Vercel"],
+    "githubLink": "https://www.youtube.com/embed/UkCqYXeaIsY?si=Ecv4qQ1eK5YGWUZc",
+    "demoLink": "https://youtu.be/UkCqYXeaIsY",
+    "description": "This project aimed to create a full-stack web application that allows dog owners to create profiles, manage dog profiles, browse dogs available for playdates, and request or accept playdates with other owners. The project was built using Next.js, React, TypeScript, JavaScript, and Tailwind CSS, with PostgreSQL and Supabase used for database management and Vercel used for deployment."
+  },
+  {
+    "projectTitle": "Coloryze",
+    "techStack": ["Next", "React", "Typescript", "Javascript", "Tailwind CSS", "FastAPI", "Pydantic", "MediaPipe", "OpenCV", "Numpy"],
+    "githubLink": "https://github.com/CG166/capstone1",
+    "demoLink": "https://www.youtube.com/embed/XqIoUCq93Es?si=dAaNqjYDibEvWWQu",
+    "description": "This project aimed to create a full-stack image analysis application that allows users to perform color and facial analysis using uploaded images or webcam photos. The project was built using Next.js, TypeScript, JavaScript, JSX/HTML, and Tailwind CSS for the frontend, with FastAPI, Pydantic, MediaPipe, OpenCV, and NumPy powering the backend and image analysis."
+  }
+]
