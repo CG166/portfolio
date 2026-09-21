@@ -22,7 +22,7 @@ export default function ContactMe() {
             <h1 className="absolute top-0  left-1/2 -translate-x-1/2 -translate-y-1/2 bg-black px-3 text-white font-orbitron text-[clamp(1rem,5cqw,12rem)]">
                 Channels
             </h1>
-                <div className="w-[80%] h-[80%] font-orbitron p-10 flex justify-between gap-10 border-2 border-amber-300">
+                <div className="w-[80%] h-[80%] font-orbitron p-10 flex md:flex-row flex-col justify-between gap-10 border-2 border-amber-300">
                     <div className="w-1/2 min-w-0">
                         <h1 className="text-4xl pb-10 text-white text-[clamp(1.25rem,2.5vw,2.5rem)]">[ ESTABLISH UPLINK ]</h1>
                         <div className="text-3xl pl-10 text-[clamp(1rem,2vw,1.875rem)]">
