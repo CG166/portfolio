@@ -15,10 +15,10 @@ export default function Aboutme() {
                 </div>
                 <div className="flex flex-col h-full w-[60%] text-xl font-orbitron bg-black justify-center items-center">
                     <div className="w-[95%] h-[95%] border flex flex-col">
-                        <div className="flex justify-center border border-cyan-300 font-bold text-3xl p-3">
+                        <div className="flex justify-center border border-cyan-300 font-bold text-3xl p-3 text-white">
                         Profile
                         </div>
-                        <div className="border border-cyan-300 flex-1 p-10 min-h-0 overflow-y-auto">
+                        <div className="border border-cyan-300 flex-1 p-10 min-h-0 overflow-y-auto text-white">
                             <h1 className="font-bold text-2xl">Name</h1>
                             <h1 className="pb-5">Cindy Garcia</h1>
                             <h1 className="font-bold text-2xl">Degree</h1>

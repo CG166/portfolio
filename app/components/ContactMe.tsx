@@ -24,25 +24,25 @@ export default function ContactMe() {
             </h1>
                 <div className="w-[80%] h-[80%] font-orbitron p-10 flex justify-between">
                     <div>
-                        <h1 className="text-4xl pb-10">[ ESTABLISH UPLINK ]</h1>
+                        <h1 className="text-4xl pb-10 text-white">[ ESTABLISH UPLINK ]</h1>
                         <div className="text-3xl pl-10">
-                            <a href="mailto:cgarcia.software.tech@gmail.com" className="block pb-4 hover:text-cyan-400 hover:text-[2rem] cursor-pointer">
+                            <a href="mailto:cgarcia.software.tech@gmail.com" className="block pb-4 hover:text-cyan-400 hover:text-[2rem] cursor-pointer text-white">
                                 ◉ EMAIL
                             </a>
 
-                            <a href="https://www.linkedin.com/in/cindy-garcia-ba1684247" target="_blank" rel="noopener noreferrer" className="block pb-4 hover:text-cyan-400 hover:text-[2rem] cursor-pointer">
+                            <a href="https://www.linkedin.com/in/cindy-garcia-ba1684247" target="_blank" rel="noopener noreferrer" className="block pb-4 hover:text-cyan-400 hover:text-[2rem] cursor-pointer text-white">
                                 ◈ LINKEDIN
                             </a>
 
-                            <a href="https://github.com/CG166" target="_blank" rel="noopener noreferrer" className="block pb-4 hover:text-cyan-400 hover:text-[2rem] cursor-pointer">
+                            <a href="https://github.com/CG166" target="_blank" rel="noopener noreferrer" className="block pb-4 hover:text-cyan-400 hover:text-[2rem] cursor-pointer text-white">
                                 ▣ GITHUB
                             </a>
                         </div>
                     </div>
 
                     <div>
-                        <h1 className="text-4xl pb-10">[ ACCESS PERSONNEL FILE ]</h1>
-                        <a href="/CGResume.pdf" target="_blank" rel="noopener noreferrer" className="block text-3xl pl-10 hover:text-cyan-400 hover:text-[2rem] cursor-pointer">
+                        <h1 className="text-4xl pb-10 text-white">[ ACCESS PERSONNEL FILE ]</h1>
+                        <a href="/CGResume.pdf" target="_blank" rel="noopener noreferrer" className="block text-3xl pl-10 hover:text-cyan-400 hover:text-[2rem] cursor-pointer text-white">
                             ↓ RESUME
                         </a>
                     </div>

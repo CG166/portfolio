@@ -24,7 +24,7 @@ export default function Pcard({projectTitle, techStack, githubLink, demoLink, de
             
                 <div className="flex h-full">
                     <div className="flex flex-col w-[55%] p-[4%]">
-                        <h1 className="font-orbitron text-4xl pb-[7%]">{projectTitle}</h1>
+                        <h1 className="font-orbitron text-4xl pb-[7%] text-white">{projectTitle}</h1>
                         <iframe
                         className="w-full aspect-video rounded-lg self-center"
                         src={demoLink}
@@ -36,14 +36,14 @@ export default function Pcard({projectTitle, techStack, githubLink, demoLink, de
                     </div>
 
                     <div className="flex w-[45%] flex-col overflow-hidden p-[3%] justify-center">
-                        <h1 className="font-orbitron text-2xl pb-[1%]">Tech Stack</h1>
+                        <h1 className="font-orbitron text-2xl pb-[1%] text-white">Tech Stack</h1>
                         <div className="flex flex-wrap gap-2">
                             {techStack.map((tech) => (
                                 <Techbubble key={tech} tech={tech} />
                             ))}
                         </div>
                         
-                        <h1 className="font-orbitron text-2xl pt-[4%] pb-[1%]">Github</h1>
+                        <h1 className="font-orbitron text-2xl pt-[4%] pb-[1%] text-white">Github</h1>
                         <div className="flex flex-row">
                             <div className="">
                                 <FaGithub className="w-10 h-10 text-white" />
@@ -59,8 +59,8 @@ export default function Pcard({projectTitle, techStack, githubLink, demoLink, de
                         </div>
 
                         <div className="pt-[4%]">
-                            <h1 className="font-orbitron text-2xl pb-[2%]">Description</h1>
-                            <p className="font-oxanium text-xl pb-[2%]">
+                            <h1 className="font-orbitron text-2xl pb-[2%] text-white">Description</h1>
+                            <p className="font-oxanium text-xl pb-[2%] text-white">
                                 {description}
                             </p>
 

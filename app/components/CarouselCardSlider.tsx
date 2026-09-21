@@ -64,7 +64,7 @@ export default function CarouselCardSlider({CardInfoArray, SectionTitle, }: CCSP
     return (
         <main className="bg-blueblack h-[110vh] w-screen flex flex-col items-center justify-center gap-14">
             <div className="bg-black inline-block border-2 border-cyberyellow shadow-[10px_10px_0_0_theme(colors.cyberyellow)]">
-                <h1 className="font-orbitron text-6xl font-bold px-8 py-6">{SectionTitle}</h1>
+                <h1 className="font-orbitron text-6xl font-bold px-8 py-6 text-white">{SectionTitle}</h1>
             </div>
             <div className="flex flex-row items-center gap-22
             ">
