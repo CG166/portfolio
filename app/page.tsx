@@ -1,13 +1,13 @@
 "use client";
 
-import Introblock from "./compontents/Introblock";
-import CarouselCardSlider from "./compontents/CarouselCardSlider";
-import Aboutme from "./compontents/Aboutme";
+import Introblock from "./components/Introblock";
+import CarouselCardSlider from "./components/CarouselCardSlider";
+import Aboutme from "./components/Aboutme";
 import python from "@/data/python.json";
-import ContactMe from "./compontents/ContactMe";
+import ContactMe from "./components/ContactMe";
 import nextjs from "@/data/nextjs.json";
 import mysql from "@/data/mysql.json";
-import Transition from "./compontents/Transition";
+import Transition from "./components/Transition";
 
 
 export default function Home() {
