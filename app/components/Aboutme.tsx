@@ -5,7 +5,7 @@ export default function Aboutme() {
     return(
         <main className="flex items-center justify-center h-[95vh] w-screen bg-blueblack">
             <div className="flex flex-col md:flex-row h-[90%] w-[85%]">
-                <div className="flex flex-col h-full w-[40%] gap-8">
+                <div className="flex flex-col h-full w-full md:w-[40%] gap-8">
                     <h1 className="m-0 leading-none font-orbitron text-white text-[clamp(1rem,5cqw,12rem)]">Information</h1>
                     <img
                         src="/profpic.jpg"
