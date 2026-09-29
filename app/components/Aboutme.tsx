@@ -13,7 +13,7 @@ export default function Aboutme() {
                         className="w-[80%] h-[80%] object-cover border-4 border-cyberyellow rounded-2xl shadow-[0_0_4px_#facc15,0_0_10px_#facc1555]"
                     />
                 </div>
-                <div className="flex flex-col h-full w-screen md:w-[60%] text-xl font-orbitron bg-black justify-center items-center">
+                <div className="flex flex-col h-full w-full md:w-[60%] text-xl font-orbitron bg-black justify-center items-center">
                     <div className="w-[95%] h-[95%] border flex flex-col">
                         <div className="flex justify-center border border-cyan-300 font-bold text-3xl p-3 text-white">
                         Profile
