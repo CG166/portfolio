@@ -23,7 +23,7 @@ export default function Pcard({projectTitle, techStack, githubLink, demoLink, de
             <div className="relative flex flex-col h-full w-full rounded-2xl bg-black">
             
                 <div className="flex md:flex-row flex-col h-full">
-                    <div className="flex flex-col w-[55%] p-[4%]">
+                    <div className="flex flex-col w-full md:w-[55%] p-[4%]">
                         <h1 className="font-orbitron text-4xl pb-[7%] text-white">{projectTitle}</h1>
                         <iframe
                         className="w-full aspect-video rounded-lg self-center"
@@ -35,7 +35,7 @@ export default function Pcard({projectTitle, techStack, githubLink, demoLink, de
                         ></iframe>
                     </div>
 
-                    <div className="flex w-[45%] flex-col overflow-hidden p-[3%] justify-center">
+                    <div className="flex w-full md:w-[45%] flex-col overflow-hidden p-[3%] justify-center">
                         <h1 className="font-orbitron text-2xl pb-[1%] text-white">Tech Stack</h1>
                         <div className="flex flex-wrap gap-2">
                             {techStack.map((tech) => (
