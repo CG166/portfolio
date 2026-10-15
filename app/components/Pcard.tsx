@@ -24,7 +24,7 @@ export default function Pcard({projectTitle, techStack, githubLink, demoLink, de
             
                 <div className="flex md:flex-row flex-col min-h-full h-max">
                     <div className="flex flex-col w-full md:w-[55%] p-[4%]">
-                        <h1 className="font-orbitron text-4xl pb-[7%] text-white">{projectTitle}</h1>
+                        <h1 className="font-orbitron text-[clamp(1.5rem,3vw,2.25rem)] pb-[7%] text-white">{projectTitle}</h1>
                         <iframe
                         className="w-full aspect-video rounded-lg self-center"
                         src={demoLink}
@@ -36,14 +36,14 @@ export default function Pcard({projectTitle, techStack, githubLink, demoLink, de
                     </div>
 
                     <div className="flex w-full md:w-[45%] flex-col p-[3%] justify-center">
-                        <h1 className="font-orbitron text-2xl pb-[1%] text-white">Tech Stack</h1>
+                        <h1 className="font-orbitron text-[clamp(1.125rem,2vw,1.5rem)] pb-[1%] text-white">Tech Stack</h1>
                         <div className="flex flex-wrap gap-2">
                             {techStack.map((tech) => (
                                 <Techbubble key={tech} tech={tech} />
                             ))}
                         </div>
                         
-                        <h1 className="font-orbitron text-2xl pt-[4%] pb-[1%] text-white">Github</h1>
+                        <h1 className="font-orbitron text-[clamp(1.125rem,2vw,1.5rem)] pt-[4%] pb-[1%] text-white">Github</h1>
                         <div className="flex flex-row">
                             <div className="">
                                 <FaGithub className="w-10 h-10 text-white" />
@@ -52,15 +52,15 @@ export default function Pcard({projectTitle, techStack, githubLink, demoLink, de
                             href={githubLink}
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="text-white hover:underline font-oxanium text-2xl"
+                            className="text-white hover:underline font-oxanium text-[clamp(1.125rem,2vw,1.5rem)]"
                             >
                             {projectTitle}
                             </a>
                         </div>
 
                         <div className="pt-[4%]">
-                            <h1 className="font-orbitron text-2xl pb-[2%] text-white">Description</h1>
-                            <p className="font-oxanium text-xl pb-[2%] text-white">
+                            <h1 className="font-orbitron text-[clamp(1.125rem,2vw,1.5rem)] pb-[2%] text-white">Description</h1>
+                            <p className="font-oxanium text-[clamp(1rem,1.5vw,1.25rem)] pb-[2%] text-white">
                                 {description}
                             </p>
 

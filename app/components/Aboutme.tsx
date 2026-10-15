@@ -6,7 +6,7 @@ export default function Aboutme() {
         <main className="flex items-center justify-center h-[95vh] w-screen bg-blueblack">
             <div className="flex flex-col md:flex-row h-[90%] md:w-[85%] w-full items-center md:items-start">
                 <div className="flex flex-col h-full w-full md:w-[40%] gap-10 items-center md:items-start">
-                    <h1 className="m-0 leading-none font-orbitron text-white text-[clamp(1rem,5cqw,12rem)]">Information</h1>
+                    <h1 className="m-0 leading-none font-orbitron text-white text-[clamp(2rem,5vw,3.75rem)]">Information</h1>
                     <img
                         src="/profpic.jpg"
                         alt="Profile picture"
@@ -15,21 +15,21 @@ export default function Aboutme() {
                 </div>
                 <div className="flex flex-col h-full w-[90%] md:w-[60%] text-xl font-orbitron bg-black justify-center items-center ">
                     <div className="w-[95%] h-[95%] border flex flex-col">
-                        <div className="flex justify-center border border-cyan-300 font-bold text-3xl p-3 text-white">
+                        <div className="flex justify-center border border-cyan-300 font-bold text-[clamp(1.25rem,2.5vw,1.875rem)] p-3 text-white">
                         Profile
                         </div>
-                        <div className="border border-cyan-300 flex-1 p-10 min-h-0 overflow-y-auto text-white">
-                            <h1 className="font-bold text-2xl">Name</h1>
+                        <div className="border border-cyan-300 flex-1 p-10 min-h-0 overflow-y-auto text-white text-[clamp(1rem,1.5vw,1.25rem)]">
+                            <h1 className="font-bold text-[clamp(1.125rem,2vw,1.5rem)]">Name</h1>
                             <h1 className="pb-5">Cindy Garcia</h1>
-                            <h1 className="font-bold text-2xl">Degree</h1>
+                            <h1 className="font-bold text-[clamp(1.125rem,2vw,1.5rem)]">Degree</h1>
                             <h1 className="pb-5">Bachelor of Science, Computer Science</h1>
-                            <h1 className="font-bold text-2xl" >Skills</h1>
+                            <h1 className="font-bold text-[clamp(1.125rem,2vw,1.5rem)]" >Skills</h1>
                             <h1 className="py-2">Programming Languages: C, C++, Python, Kotlin, Java, JavaScript, TypeScript, HTML, CSS, Tailwind CSS, SQL, PHP, Bash</h1>
                             <h1 className="py-2">Frameworks & Libraries: React.js, Next.js, OpenCV, MediaPipe</h1>
                             <h1 className="py-2">Operating Systems: Linux (Ubuntu, Kali), Windows</h1>
                             <h1 className="py-2">Database Systems: MySQL, PostgreSQL</h1>
                             <h1 className="pt-2 pb-5">Version Control & Deployment: Git, CI/CD Fundamentals, Vercel</h1>
-                            <h1 className="font-bold text-2xl">Areas of Interest</h1>
+                            <h1 className="font-bold text-[clamp(1.125rem,2vw,1.5rem)]">Areas of Interest</h1>
                             <h1>Back-end Development, Automation, Machine Learning, Artificial Intelligence, Decision Systems</h1>
                         </div>
                     </div>

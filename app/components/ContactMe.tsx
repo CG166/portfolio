@@ -24,25 +24,25 @@ export default function ContactMe() {
             </h1>
                 <div className="md:w-[80%] w-[95%] h-[80%] font-orbitron p-[1%] md:p-[4%] flex md:flex-row flex-col justify-between gap-10">
                     <div className="md:w-1/2 md:min-w-0 h-1/2 min-h-0">
-                        <h1 className="text-4xl pb-[4%] text-white text-[clamp(1.25rem,2.5vw,2.5rem)]">[ ESTABLISH UPLINK ]</h1>
-                        <div className="text-3xl pl-10 text-[clamp(1rem,2vw,1.875rem)]">
-                            <a href="mailto:cgarcia.software.tech@gmail.com" className="block pb-4 hover:text-cyan-400 hover:text-[2rem] cursor-pointer text-white">
+                        <h1 className="pb-[4%] text-white text-[clamp(1.5rem,3vw,2.25rem)]">[ ESTABLISH UPLINK ]</h1>
+                        <div className="pl-10 text-[clamp(1.25rem,2.5vw,1.875rem)]">
+                            <a href="mailto:cgarcia.software.tech@gmail.com" className="block pb-4 hover:text-cyan-400 hover:scale-110 cursor-pointer text-white">
                                 ◉ EMAIL
                             </a>
 
-                            <a href="https://www.linkedin.com/in/cindy-garcia-ba1684247" target="_blank" rel="noopener noreferrer" className="block pb-4 hover:text-cyan-400 hover:text-[2rem] cursor-pointer text-white">
+                            <a href="https://www.linkedin.com/in/cindy-garcia-ba1684247" target="_blank" rel="noopener noreferrer" className="block pb-4 hover:text-cyan-400 hover:scale-110 cursor-pointer text-white">
                                 ◈ LINKEDIN
                             </a>
 
-                            <a href="https://github.com/CG166" target="_blank" rel="noopener noreferrer" className="block pb-4 hover:text-cyan-400 hover:text-[2rem] cursor-pointer text-white">
+                            <a href="https://github.com/CG166" target="_blank" rel="noopener noreferrer" className="block pb-4 hover:text-cyan-400 hover:scale-110 cursor-pointer text-white">
                                 ▣ GITHUB
                             </a>
                         </div>
                     </div>
 
                     <div className="md:w-1/2 md:min-w-0 h-1/2 min-h-0">
-                        <h1 className="text-4xl pb-[4%] text-white text-[clamp(1.25rem,2.5vw,2.5rem)]">[ ACCESS PERSONNEL FILE ]</h1>
-                        <a href="/CGResume.pdf" target="_blank" rel="noopener noreferrer" className="block text-3xl pl-10 hover:text-cyan-400 hover:text-[2rem] cursor-pointer text-white text-[clamp(1rem,2vw,1.875rem)]">
+                        <h1 className="pb-[4%] text-white text-[clamp(1.5rem,3vw,2.25rem)]">[ ACCESS PERSONNEL FILE ]</h1>
+                        <a href="/CGResume.pdf" target="_blank" rel="noopener noreferrer" className="block pl-10 hover:text-cyan-400 hover:scale-110 cursor-pointer text-white text-[clamp(1.25rem,2.5vw,1.875rem)]">
                             ↓ RESUME
                         </a>
                     </div>
