@@ -20,9 +20,9 @@ export default function Pcard({projectTitle, techStack, githubLink, demoLink, de
         <main className="flex flex-col h-[70vh] w-[80vw] items-center justify-center rounded-2xl bg-orange-400">
             <div className="relative h-full w-full overflow-hidden rounded-2xl p-0.75">
             <div className="absolute -inset-full animate-[spin_6s_linear_infinite] bg-[conic-gradient(from_45deg,#06B6D4,#22D3EE,#67E8F9)]" />
-            <div className="relative flex flex-col h-full w-full rounded-2xl bg-black">
+            <div className="relative flex flex-col h-full w-full rounded-2xl bg-black overflow-y-auto">
             
-                <div className="flex md:flex-row flex-col h-full">
+                <div className="flex md:flex-row flex-col min-h-full">
                     <div className="flex flex-col w-full md:w-[55%] p-[4%]">
                         <h1 className="font-orbitron text-4xl pb-[7%] text-white">{projectTitle}</h1>
                         <iframe
