@@ -6,11 +6,9 @@ type SizeProp = {
 
 export default function Transition({ height }: SizeProp) {
     return (
-        <main>
-            <div
-                className="w-screen bg-blueblack"
-                style={{ height: `${height}vh` }}
-            />
-        </main>
+        <div
+            className="w-screen bg-blueblack"
+            style={{ height: `min(${height}vh, ${height}vw)` }}
+        />
     );
 }
