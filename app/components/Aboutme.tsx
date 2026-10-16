@@ -3,8 +3,8 @@
 
 export default function Aboutme() {
     return(
-        <main className="flex items-center justify-center h-[95vh] w-screen bg-blueblack">
-            <div className="flex flex-col md:flex-row h-[90%] md:w-[85%] w-full items-center md:items-start">
+        <main className="flex items-center justify-center min-h-[95vh] h-auto w-full bg-blueblack py-10">
+            <div className="flex flex-col md:flex-row h-auto md:min-h-[80vh] md:w-[85%] w-full items-center md:items-start gap-10">
                 <div className="flex flex-col h-full w-full md:w-[40%] gap-10 items-center md:items-start">
                     <h1 className="m-0 leading-none font-orbitron text-white text-[clamp(2rem,5vw,3.75rem)]">Information</h1>
                     <img
