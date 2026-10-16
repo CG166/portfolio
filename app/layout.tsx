@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono, Orbitron, Black_Ops_One, Oxanium } from "next/font/google";
+import { Geist, Geist_Mono, Orbitron, Black_Ops_One} from "next/font/google";
 import "./globals.css";
+import localFont from "next/font/local";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -25,10 +26,10 @@ const blackOpsOne = Black_Ops_One({
   variable: "--blackOpsOne",
 });
 
-const oxanium = Oxanium({
-  subsets: ["latin"],
-  weight: ["400", "700"],
+const oxanium = localFont({
+  src: "./fonts/Oxanium-VariableFont_wght.ttf",
   variable: "--oxanium",
+  display: "swap",
 });
 
 //
